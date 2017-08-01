@@ -20,6 +20,8 @@
 exprl2
 }
 \description{
-A dataset containing the normalized expression values for a the Non-Human brain atlas.
+A dataset containing the normalized expression values for the Non-Human brain atlas. This
+data set contains the nesecary information for plotting developmental time series across
+a subset or cortex regions.
 }
 \keyword{datasets}
