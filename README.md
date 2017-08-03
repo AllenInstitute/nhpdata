@@ -17,12 +17,9 @@ In the `R` command line perform the following commands
 # Install devtools package
 install.package("devtools")
 
-# Install hbadata
+# Install nhpdata
 devtools::install_github("edelsonc/nhpdata")
 ```
 
-## Licensing
-The license this source code is release under is TBD.
-
 ## Additional Details
-The source version of this package contains the code necessary to format the raw data downloaded from the [Allen Institute](http://human.brain-map.org/static/download) into the hosted `.rda` files. This code is located in `data-raw`. A `README.txt` is to follow.
+The source version of this package contains the code necessary to format the raw data downloaded from the [Allen Institute](http://human.brain-map.org/static/download) into the hosted `.rda` files. This code is located in `data-raw`.

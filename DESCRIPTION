@@ -1,10 +1,10 @@
 Package: nhpdata
-Title: What the Package Does (one line, title case)
+Title: Data from the non-human primate atlas for use with the atlasplot package
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: c(person("Charles", "Edelson", email = "charlese@alleninstitute.org", role = c("aut", "cre")),person("Jeremy", "Miller", email = "jeremym@alleninstitute.org", role = c("aut")))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.4.0)
-License: What license is it under?
+License: GNU GPL2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
