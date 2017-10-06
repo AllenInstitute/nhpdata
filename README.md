@@ -1,5 +1,5 @@
 # nhpdata
-A repository to hold the `nhpdata` package, a package containing the normalized mRNA expression data used in the Non-human Pimate Atlas at the [Allen Institute](https://www.alleninstitute.org/).
+A repository to hold the `nhpdata` package, a package containing the normalized mRNA expression data used in the Non-human Primate Atlas at the [Allen Institute](http://brain-map.org/).
 
 The original data can be found [here](https://github.com/AllenBrainAtlas/DevRhesusLMD).
 
@@ -18,8 +18,8 @@ In the `R` command line perform the following commands
 install.package("devtools")
 
 # Install nhpdata
-devtools::install_github("edelsonc/nhpdata")
+devtools::install_github("AllenInstitute/nhpdata")
 ```
 
 ## Additional Details
-The source version of this package contains the code necessary to format the raw data downloaded from the [Allen Institute](http://human.brain-map.org/static/download) into the hosted `.rda` files. This code is located in `data-raw`.
+The source version of this package contains the code necessary to format the raw data downloaded from the [Allen Institute](http://www.blueprintnhpatlas.org/static/download) into the hosted `.rda` files. This code is located in `data-raw`.
